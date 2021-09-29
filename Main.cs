@@ -1015,7 +1015,7 @@ namespace KeyViewer
         }
         public static AssetBundle LoadBundle()
         {
-            return AssetBundle.LoadFromMemory(Assembly.GetExecutingAssembly().GetManifestResourceStream("KeyViewer.KeyViewer.assets").ReadFully());
+            return AssetBundle.LoadFromMemory(Assembly.GetExecutingAssembly().GetManifestResourceStream("KeyViewer.key.assets").ReadFully());
         }
 
     }
