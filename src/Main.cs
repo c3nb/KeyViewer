@@ -399,7 +399,6 @@ namespace KeyViewer
         }
         internal static void Press()
         {
-            Main.Settings.Total++;
             tmp.IncrementAndGet();
         }
         internal static void Reset()
